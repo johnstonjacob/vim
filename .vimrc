@@ -2,6 +2,7 @@ set nocompatible              " be iMproved, required
 filetype off
 syntax on
 set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
+let g:go_fmt_command = "goimports"
 set number
 set ruler
 " set the runtime path to include Vundle and initialize
@@ -17,6 +18,7 @@ set t_Co=256
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'faith/vim-go'
 Plugin 'https://github.com/crusoexia/vim-javascript-lib'
 Plugin 'gavocanov/vim-js-indent'
 Plugin 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
