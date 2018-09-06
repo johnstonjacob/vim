@@ -18,7 +18,7 @@ set t_Co=256
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'faith/vim-go'
+Plugin 'fatih/vim-go'
 Plugin 'https://github.com/crusoexia/vim-javascript-lib'
 Plugin 'gavocanov/vim-js-indent'
 Plugin 'pangloss/vim-javascript', { 'for': ['javascript', 'javascript.jsx'] }
